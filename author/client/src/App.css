@@ -1,0 +1,97 @@
+.App {
+  padding: 15px;
+  margin: 15px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.author-list {
+  border: 2px solid black;
+}
+
+tr, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.delete {
+  margin-left: 15px;
+}
+
+.form {
+  border: 2px solid black;
+  width: 250px;
+  padding: 10px;
+}
+
+.bot-bar {
+  padding: 5px;
+  text-align: baseline;
+}
+
+.cancel {
+  text-decoration: none;
+  background-color: #67bbff;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+  height: 25px;
+}
+
+.submit {
+  margin-left: 10px;
+  background-color: #67bbff;
+  color: white;
+  border: 1px #67bbff;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.edit {
+  text-decoration: none;
+  background-color: #d5c7b5;
+  color: white;
+  border-radius: 5px;
+  width: 50px;
+  padding: 2px;
+}
+
+.delete {
+  background-color: #d7b8b9;
+  color: white;
+  border: 2px #d7b8b9;
+  border-radius: 5px;
+  height: 25px;
+}
